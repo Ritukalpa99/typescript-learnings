@@ -33,3 +33,12 @@ console.log(username);
     console.log(c * b);
     ```
 - We can prevent the code that gives warning in `ts` to be compiled to `js` by chaning `"noEmitOnError": true`. Now it won't compile until the ts compiler is free of errors.
+
+## L02
+- Strongly Typed Langauges demand the specification of data types
+- Looosely Typed Languages do not required type specification
+- Static Typing/ Dynamic Typing is not the same as strongly typed/loosely typed
+- In Static typed, data types are checked at compile time
+- In Dynamic tpyed, data types are checked at runtime
+- A language that is strongly typed can be either statically OR dynamically typed!
+- TS is statically typed language meaning types are checked at runtime. JS is dynamically types (type checking at runtime)
